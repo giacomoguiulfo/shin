@@ -185,6 +185,9 @@
   },
   "active": "3f735e9a185ab909",
   "lastOpenFiles": [
+    "README.md",
+    "assets/shin.svg",
+    "assets",
     "SOUL.md",
     "Projects/kanvify.md",
     "Projects/worktree-pipeline.md",
@@ -211,7 +214,6 @@
     "Articles/the-brand-age.md",
     "Articles/services-the-new-software.md",
     "Articles/ai-and-software-engineering.md",
-    "TILs/claude-md-less-is-more.md",
     "TILs",
     "Articles",
     "Templates",
