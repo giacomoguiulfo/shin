@@ -1,6 +1,7 @@
 ---
 tags:
   - project/kage-bunshin
+repo: ~/Github/kage-bunshin
 ---
 
 # Kage Bunshin (影分身)
