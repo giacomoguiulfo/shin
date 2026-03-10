@@ -1,0 +1,49 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat SOUL.md 2>/dev/null || echo 'SOUL.md not found'"
+          }
+        ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'FILE=\"Brain-Dump.md\"; if [ -f \"$FILE\" ] && [ -s \"$FILE\" ]; then echo \"=== Brain Dump ===\"; cat \"$FILE\"; echo; echo \"Process these items: triage into the vault (create notes, add to projects, update Profile, or discard). Then clear Brain-Dump.md.\"; else echo \"No brain dump items.\"; fi'"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'INPUT=$(cat); FILE=$(echo \"$INPUT\" | jq -r \".tool_input.file_path // empty\" 2>/dev/null); if [ -n \"$FILE\" ] && [[ \"$FILE\" == *.md ]]; then git add \"$FILE\" && git commit -m \"vault: update $(basename \"$FILE\" .md)\" --quiet 2>/dev/null || true; fi'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'cd /Users/giacomoguiulfoknell/Github/mind && git add -A -- \"*.md\" \"Articles/\" \"Projects/\" \"Templates/\" \"TILs/\" \".claude/\" 2>/dev/null; git diff --cached --quiet 2>/dev/null || git commit -m \"vault: session sync\" --quiet 2>/dev/null; true'"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true
+  }
+}
