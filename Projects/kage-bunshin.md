@@ -87,15 +87,16 @@ Pipeline stages:
 | Resume Templates | Base templates optimized for ATS parsing |
 | Application Tracker | Structured data: company, role, status, dates, notes |
 
-## Tech Considerations
+## Stack
 
-| Layer | Options |
-|-------|---------|
-| Scraping/Discovery | Playwright, Puppeteer, API integrations |
-| AI Engine | Claude for tailoring, scoring, prep |
-| Automation | Browser automation for form filling |
-| Tracking | Local DB or Airtable/Notion |
-| Orchestration | Claude Code + worktree-pipeline |
+| Layer | Tech |
+|-------|------|
+| Language | TypeScript |
+| Browser automation | Playwright (Chromium) |
+| AI layer | Claude CLI (`claude -p`) — no direct API |
+| Database | SQLite (better-sqlite3) |
+| CLI framework | Commander.js |
+| Runner | tsx |
 
 ## Constraints
 
