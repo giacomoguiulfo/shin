@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4aa38e7d4729b074",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "178b46fceeceb49a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
         "id": "677794225522f4ef",
         "type": "tabs",
         "children": [
@@ -27,10 +11,14 @@
             "id": "3f735e9a185ab909",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/worktree-pipeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "worktree-pipeline"
             }
           }
         ]
@@ -106,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/worktree-pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for worktree-pipeline"
             }
           },
           {
@@ -124,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/worktree-pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from worktree-pipeline"
             }
           },
           {
@@ -166,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Projects/worktree-pipeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of worktree-pipeline"
             }
           }
         ]
@@ -192,8 +183,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "178b46fceeceb49a",
+  "active": "3f735e9a185ab909",
   "lastOpenFiles": [
-    "Welcome.md"
+    "SOUL.md",
+    "Projects/kanvify.md",
+    "Projects/worktree-pipeline.md",
+    "Templates/Tool-Eval.md",
+    "TILs/Tool-Eval-RWSDK.md",
+    "TILs/edge-first-tradeoffs.md",
+    "Ideas.md",
+    "TILs/Tool-Eval-Process-Checklist.md",
+    "TILs/Tool-Eval-GrapeRoot.md",
+    "TILs/Tool-Eval-UUPM.md",
+    "TILs/Tool-Eval-Mem0.md",
+    "TILs/Tool-Eval-Piebald.md",
+    "Tool-Radar.md",
+    "Articles/ralph-loop-agent.md",
+    "Brain-Dump.md",
+    "Home.md",
+    "CLAUDE.md",
+    "Untitled.base",
+    "Templates/TIL.md",
+    "Templates/Reading.md",
+    "Templates/Decision.md",
+    "Templates/Project.md",
+    "Profile.md",
+    "Articles/the-brand-age.md",
+    "Articles/services-the-new-software.md",
+    "Articles/ai-and-software-engineering.md",
+    "TILs/claude-md-less-is-more.md",
+    "TILs",
+    "Articles",
+    "Templates",
+    "Projects"
   ]
 }
