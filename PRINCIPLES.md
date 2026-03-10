@@ -10,6 +10,10 @@ Guiding principles for building and decision-making. Reference these when evalua
 
 **Scratch Your Own Itch** — Build things you personally need. You're the first user, the fastest feedback loop, and the most honest critic. If you don't feel the pain, you'll guess wrong about what matters.
 
+## Naming
+
+**Anime-Inspired Names** — Projects get named after anime techniques/powers that metaphorically match what the product does. Examples: Kage Bunshin (shadow clones → parallel job applications), Domain Expansion (JJK → expanding your knowledge domain).
+
 ## Building
 
 **YAGNI (You Aren't Gonna Need It)** — Don't build for hypothetical future requirements. Build what's needed now. Features that "might be useful someday" almost never are, and they add maintenance burden today.
