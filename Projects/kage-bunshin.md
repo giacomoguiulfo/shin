@@ -110,15 +110,17 @@ Pipeline stages:
 
 _Last updated: 2026-03-11_
 
-**Recent work**: Project created. Defined pipeline stages, target companies, and key assets.
+**Recent work**: Repo scaffolded at `~/Github/kage-bunshin`. Full CLI with commands: discover, score, tailor, status, list, show. Scrapers for LinkedIn + RemoteOK. AI layer via Claude CLI for scoring and resume tailoring. SQLite tracking DB. Compiles and runs clean.
 
 **Next**:
-- Build master resume/context doc (capture all FAANG experience, metrics, projects)
-- Curate initial target company list with Japan-remote compatibility research
-- Evaluate existing job search automation tools (LazyApply, Sonnet, Simplify, etc.)
-- Design the discovery agent architecture
+- Test `discover` against RemoteOK with real queries
+- Build Wellfound scraper (API-friendly, startup-focused)
+- Build the `apply` command with Playwright form-filling + screenshot evidence
+- Add approval mode (queue for review before submitting)
+- Add more scrapers: WeWorkRemotely, HN Who's Hiring
+- Enrich LinkedIn scraper with full description fetching
 
 **Open questions**:
-- Build custom tooling or leverage existing job-search automation platforms?
+- LinkedIn scraping without login is limited — do we need authenticated scraping or a different approach?
 - What's the right balance between automated spray vs. curated high-touch applications?
 - Should we set up a US mailing address / LLC for companies that require US presence?
