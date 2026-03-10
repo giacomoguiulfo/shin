@@ -50,3 +50,4 @@ mind/
 - **Notes capture durable knowledge** — decisions, learnings, patterns. Not work artifacts.
 - **Minimal structure** — few folders, tags and links over hierarchy.
 - **Project notes are onboarding docs** — everything Claude needs to pick up and go.
+- See `[[PRINCIPLES]]` for building & decision-making principles (Scratch Your Own Itch, YAGNI, KISS, DRY/WET).
