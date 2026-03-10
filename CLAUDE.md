@@ -33,6 +33,7 @@ Before wrapping up, update the project note's `## Current State` section with:
 mind/
 ├── Articles/       # Reading & domain-expansion notes
 ├── Projects/       # One note per project (stack, conventions, current state)
+├── Research/       # Research notes & market analysis
 ├── Templates/      # Note templates
 ├── TILs/           # Things I learned, patterns, snippets
 └── *.md            # Decisions, ideas, and other flat notes
