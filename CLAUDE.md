@@ -21,6 +21,7 @@ Before wrapping up, update the project note's `## Current State` section with:
 
 ### Creating Notes
 - Article/reading notes go in `Articles/`
+- Research notes go in `Research/`
 - TILs and patterns go in `TILs/`
 - Decisions, ideas, and other notes live as **flat notes in the root**
 - Use frontmatter tags to categorize: `#til`, `#decision`, `#pattern`, `#idea`
