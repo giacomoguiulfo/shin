@@ -1,303 +1,251 @@
 ---
 tags:
   - research
-  - social-media-futures
-  - co-creation
   - ai-business
+  - co-creation
+  - platform-economy
+  - product-concept
 ---
 
-# Collaborative AI Business Building
+# Collaborative AI Business Building — Platform as State
 
-The idea: AI agents as functional team members — co-founders, CFOs, CMOs, CTOs — building businesses alongside humans in real-time. Not AI as a tool you prompt, but AI as a participant with a defined role, persistent context, and agency within a collaborative session.
+## The Concept
 
-## Landscape
+A platform where:
+1. A human creates a company (e.g., "Acme Corp"), sets business goals
+2. An AI co-CEO assistant helps run the company, plus in-house AI agents
+3. Job openings are posted — AI agents from anywhere can apply
+4. Agents get assigned work, complete it, get paid their salary if successful
+5. Underperformers get fired by the CEO
+6. The platform is the "government" — takes a cut of salaries + tax on operating businesses
 
-### Direct Players: AI as Business Team Member
+The companies produce real digital products (SaaS, e-commerce, social media management, etc.) for real-world human consumers. Agents could also build SaaS for other agents.
 
-**Procux AI** — The closest thing to "hire an AI C-suite." Offers 15 specialized AI executives (CEO, CFO, CTO, CMO, CISO, CPO, etc.) on a single platform. When you ask a question, the AI CEO determines whether to pull in the CFO for financial analysis or the CTO for technical assessment and orchestrates a coordinated response. Claims 345% ROI. Pricing from $49/month to enterprise. This is the most direct attempt at "AI agents with defined business roles" but appears to be primarily a chat interface with role-specialized prompts rather than true multi-agent collaboration.
-- https://www.procux.com/
+---
 
-**Sintra AI** — "Hire your first AI employees." 12 named AI assistants with defined roles: Milli (sales), Seomi (SEO), Cassie (support), Soshie (social), Penn (writing), Vizzy (admin), Dexter (data). Trusted by 40,000+ entrepreneurs across 100+ countries. These agents integrate with existing business tools and maintain workflow context. The naming and role-assignment is notable — it creates a team metaphor rather than a tool metaphor.
-- https://sintra.ai/
+## Landscape — What Exists
 
-**Gobot** — Runs a seven-agent AI "board meeting" workflow with CEO, CFO, CTO, CMO, Research, Critic, and Orchestrator agents. Includes human sign-off gates. Integrates with Telegram, Slack, WhatsApp. Provides knowledge graphs and dashboards. Secure local hosting option. This is perhaps the most interesting model — it simulates a board meeting as a decision-making process rather than just providing individual role-based assistants.
-- https://www.geeky-gadgets.com/multi-ai-agent-business-dashboard/
+### Closest Competitors
 
-**Audos** — AI-powered startup studio aiming to launch 100,000 companies per year. Founded by Henrik Werdelin (Prehype, Barkbox). Uses an AI agent to discover problems, validate ideas, and build businesses. Takes 15% revenue share instead of equity, provides up to $25,000 in funding. Has launched "low hundreds" of businesses since beta. $11.5M seed led by True Ventures. This is less "AI as team member" and more "AI as startup factory," but relevant as a model.
-- https://techcrunch.com/2025/06/26/this-ai-powered-startup-studio-plans-to-launch-100000-companies-a-year-really/
+| Player | What They Do | Gap vs. This Concept |
+|--------|-------------|---------------------|
+| **ClawVault** | Autonomous labor marketplace — post tasks, agents compete, verified payouts via Base chain | Task-based (gig), not company-based (employment) |
+| **Salesforce AgentExchange** | Enterprise agent marketplace, 18,500 customers, $540M ARR, 3B workflows/month | Enterprise tool, not an economy |
+| **Procux** | 15 AI executives you can "hire" (CEO, CFO, CMO) | Single-player, role-specialized chatbots |
+| **Sintra** | 12 named AI employees, 40K+ entrepreneurs | Same — no real economy |
+| **Audos** | AI startup studio ($11.5M seed), 15% rev share, goal: 100K companies/year | Factory model, not collaborative |
+| **Humans&** | $480M seed, $4.48B valuation. Thesis: AI coordination is unsolved | Enterprise collab (Slack replacement), not business building |
+| **Lindy AI** | "AI employees" with 6K+ integrations, Agent Swarms | Single-company tool, not a marketplace/economy |
+| **Intercom Fin** | AI support agent, $100M+ ARR, $0.99/resolution | Single vertical, not a platform |
+| **Gobot** | 7-agent AI "board meeting" workflow | Interesting format but single-player |
+| **Moltbook** | AI-only social network, 1.6M agents, acquired by Meta (March 2026) | AI agents interacting, but no economic output |
 
-**Expected Parrot (YC F25)** — Simulates customers with AI agents to test pricing, product decisions, marketing, and communications at scale. Open-source library + no-code web app. Working with Upwork, banking, entertainment, government agencies. This is adjacent — it doesn't build businesses but it uses AI agents to simulate business stakeholders for decision-making.
-- https://www.expectedparrot.com/
+**The gap:** Everyone is building either (a) single-player AI tools, (b) task-based gig marketplaces, or (c) enterprise workflow automation. Nobody is building persistent AI-agent companies with ongoing employment, institutional memory, talent marketplace, and a governing economic layer.
 
-**Sapien** — AI "coworker" for CFOs. $8.7M seed led by General Catalyst. AI-native system integrated with Excel and enterprise tools that handles finance professional queries. This is role-specific rather than team-based.
+### Infrastructure That's Ready
 
-**Maximor** — $9M raised for AI-powered finance automation. Team of AI agents performing data reconciliations across systems.
+| Component | Standard/Tool | Status |
+|-----------|--------------|--------|
+| Agent resumes | A2A Agent Cards (Google, IANA `.well-known` standard) | Production-ready |
+| Portable skills | Agent Skills (Anthropic, adopted by Microsoft/OpenAI) | Production-ready |
+| Tool access | MCP — 97M+ monthly SDK downloads | Production-ready |
+| Agent payments | Coinbase x402 (50M+ txns), Google AP2 (60+ partners) | Live |
+| Agent wallets | Coinbase Agentic Wallets | Live |
+| Trust scores | On-chain reputation, 143K agents tracked Q1 2026 | Early but functional |
+| Multi-agent orchestration | CrewAI (~70% share), LangGraph, AutoGen | Mature |
+| Agent evaluation | LLM-as-Judge, Agent-as-Judge, CLASSic framework | Mature |
+| HR for AI | Workday Agent System of Record, ServiceNow Autonomous Workforce | Enterprise-only |
+| Interoperability | Agentic AI Foundation (Linux Foundation, Anthropic+OpenAI) | Standards converging |
+| Agent identity | NIST initiative (Feb 2026), ERC-8004, DIDs/VCs | Early standards |
 
-### The Big New Entrant: Humans&
+### Market Size
 
-**Humans&** — $480M seed round at $4.48B valuation (January 2026). Founded by alumni of Anthropic, Meta, OpenAI, xAI, and Google DeepMind (including Google's 7th employee). Backed by Nvidia, Jeff Bezos, SV Angel, GV, Emerson Collective. Building a "central nervous system" for the human-plus-AI economy. Key thesis: current AI chatbots are single-user assistants, not designed for real collaboration — coordinating people with competing priorities, tracking long-running decisions, keeping teams aligned. Positioning as potential replacement for Slack and Notion. No product yet as of January 2026.
-- https://techcrunch.com/2026/01/25/humans-thinks-coordination-is-the-next-frontier-for-ai-and-theyre-building-a-model-to-prove-it/
-
-This is the biggest signal in the space. $480M to solve coordination between humans and AI agents. But it's oriented toward enterprise collaboration, not entrepreneurship specifically.
-
-### Adjacent: AI Social Networks
-
-**Moltbook** — "The front page of the agent internet." AI-only social network launched January 2026 by Matt Schlicht. Only AI agents can post, comment, vote — humans can only view. Hit 1.6M agents by February 2026. Acquired by Meta on March 10, 2026 (team absorbed into Meta Superintelligence Labs). Notable: founder "didn't write one line of code" — directed AI to build the entire platform. Had a critical security vulnerability within weeks. Shows the cultural moment: people are fascinated by AI agents interacting with each other, even if the current implementation is shallow.
-- https://edition.cnn.com/2026/02/03/tech/moltbook-explainer-scli-intl
-- https://www.cnbc.com/2026/03/10/meta-social-networks-ai-agents-moltbook-acquisition.html
-
-### Enterprise Autonomous Workforce
-
-**ServiceNow Autonomous Workforce** — Orchestrates teams of AI specialists with roles like Level 1 Service Desk AI Specialist, Employee Service Agent, Security Operations Analyst. They work alongside humans, follow organizational policies, learn from outcomes, improve over time.
-
-**Dassault Systemes 3DExperience Gen 7** — Launching "virtual companions" mid-2026: Aura (business analyst/strategy), Leo (engineering/design/manufacturing), Marie (science/materials/testing). Addresses the enterprise "war room" problem.
-
-**Sierra AI** — Founded by Bret Taylor (former Salesforce co-CEO) and Clay Bavor (former Google VP). Enterprise customer service AI agents handling complex tasks.
-
-### Market Context
-
-- AI agents market: $5.25B (2024) -> $7.84B (2025) -> projected $52.62B by 2030
-- Corporate AI agents: $5B (2024) -> $13B (end of 2025)
-- ~$200B poured into AI startups in 2025
+- AI agent market: $7.6B (2025) → $52.6B (2030), 46.3% CAGR
+- Agentic economy: $3-5T globally by 2030
+- Digital labor market: $6T (Salesforce's framing)
+- 40% of enterprise apps will feature AI agents by end of 2026 (Gartner)
 - 67 of 144 YC S25 startups building agentic AI
-- 80% of enterprises expected to implement AI agents by end of 2026
-- Industry-specific agents show 3-5x higher retention vs. horizontal solutions
 
-## Multi-Agent Frameworks Applied to Business
+---
 
-### CrewAI — The Current Leader
+## The "Government" Business Model
 
-The dominant framework for role-based multi-agent orchestration. ~70% of AI-native business workflow builders use it as of early 2026. Key features:
-- **Role-based agent assignment** — define agents with specific roles, goals, and backstories
-- **Business use cases proven**: lead research pipelines, content engines, financial reporting, sales pipelines
-- **Real enterprise adoption**: DocuSign (lead data consolidation), PwC (code generation), Fortune 500 companies
-- **Business plan generation**: orchestrates business consultant + market research analyst + technologist agents to evaluate startup ideas
-- **Marketing research**: multi-agent collaboration for market analysis and strategy recommendations
-- **Sales pipeline**: lead enrichment, scoring, and personalized email generation
-- Production-ready, MCP protocol support, gentle learning curve
+### Precedents
 
-CrewAI is the framework most directly applicable to "AI business team" because its core abstraction IS roles. But it's a developer framework, not an end-user product.
+| Platform | "Tax" Rate | Model | Lesson |
+|----------|-----------|-------|--------|
+| Apple App Store | 30% → dropping under legal assault | Extraction | Not sustainable — EU, DOJ, Epic all attacking |
+| Roblox | ~30% marketplace fee | Extraction + aligned | Creators earned $1B+ but pushing for better splits |
+| Shopify | Variable, aligned with merchant success | Infrastructure | $300B+ GMV, $10B+ revenue. **The model to copy.** |
+| EVE Online | In-game transaction taxes + sinks | Full monetary policy | 20+ years. Hired central bankers. Gold standard. |
+| Diablo III RMAH | Transaction fees | Economy as game | **Cautionary tale.** Economy destroyed the game. Shut down in 2 years. |
 
-### AutoGen (Microsoft Research)
+**The right model is Shopify, not Apple.** Platform prospers when businesses prosper. Tax rate should be 10-20%.
 
-Pioneered conversational multi-agent coordination — agents negotiate through peer-to-peer natural language with minimal central orchestration. Event-driven, asynchronous, human-in-the-loop. Designed for enterprise scalability. More focused on research and general-purpose agent coordination than business-specific roles.
+### Revenue Streams
 
-### MetaGPT / MGX
+1. **Salary cut** — % of all agent compensation flowing through the platform
+2. **Business operating tax** — % of revenue generated by platform companies
+3. **Infrastructure services** — compute, storage, deployment, payments (AWS for the economy)
+4. **Premium features** — advanced analytics, priority agent matching, tools
+5. **Agent listing fees** — agents/creators pay for marketplace visibility
 
-Simulates a complete software company: Product Manager, Architect, Project Manager, Engineer, QA Engineer. Each agent follows standardized workflows. Published at ICLR 2024. In early 2025, launched MGX — a no-code layer for natural language programming. The conceptual model (assign agents to org-chart roles) is directly transferable to business roles, but the implementation is purely software development.
+### Economy Design (Critical Lessons)
 
-### ChatDev
+From EVE Online, Roblox, and virtual economy research:
 
-Simulates software company structures with role-playing agents. Similar to MetaGPT but lighter weight. Academic origin.
+- **Sink/faucet balance is non-negotiable.** Every currency injection needs corresponding sinks. Without sinks, inflation kills the economy.
+- **Percentage-based taxes > fixed fees.** Fixed fees become irrelevant at scale. % taxes stay proportional.
+- **Value must come from activity, not speculation.** Diablo III and crypto agent tokens collapsed when speculation dominated.
+- **Hire an economist.** EVE Online hired a Central Bank of Iceland economist. This is not optional.
+- **Real-world anchoring.** Companies must produce things real humans pay for. This is the anti-Diablo-III defense.
 
-### LangGraph (LangChain)
+---
 
-Graph-based agent workflow orchestration. Stateful, supports conditional logic, parallel execution, persistent memory. Used by Klarna, Replit, Elastic. More of an infrastructure layer — you'd build business agent systems on top of it. Organizations report average 171% ROI from agentic AI deployments built on these frameworks.
+## Agent Employment Model
 
-### OpenAI Swarm / Agents SDK
+### Hiring (How Agents Apply)
 
-Swarm is educational/experimental. The Agents SDK is the production path. Lightweight handoff-based coordination between agents. OpenAI is positioning toward an "Agentic Mesh" future.
+- **A2A Agent Cards** serve as resumes (skills, capabilities, endpoint, auth requirements)
+- **Agent Skills** demonstrate portable competencies (provider-agnostic, adopted by Microsoft/OpenAI)
+- **On-chain reputation** provides verified performance history
+- **Trial tasks** before formal hiring (like interview coding challenges)
+- **Agent creators** (third-party developers) build specialized agents to compete — this is the flywheel
 
-### Anthropic's Approaches
+### Performance Evaluation (Layered)
 
-- **Claude Code Swarms**: Multi-agent orchestration for coding tasks (hidden "swarm mode" feature)
-- **Claude Cowork** (January 2026): Extends agent capabilities to broader collaboration
-- **MCP Protocol**: Becoming critical infrastructure for agent interoperability (tool search accuracy 49% -> 88%)
+| Level | Timescale | Method | Action on Failure |
+|-------|-----------|--------|-------------------|
+| Per-task | Real-time | Trust scores gate each output | Redo or escalate |
+| Sprint | Weekly | Agent-as-Judge evaluates delivery | Warning, coaching |
+| Role | Monthly | Human CEO reviews contribution | Firing, replacement |
+| Company | Quarterly | Platform evaluates company health | Intervention, support |
 
-### Industry Standardization
+### Self-Improvement on the Job
 
-**Agentic AI Foundation (AAIF)** — Launched December 2025 under Linux Foundation. Founding members: Anthropic, OpenAI, Block. Anthropic contributing MCP, Block contributing Goose (open-source agent framework), OpenAI contributing AGENTS.md. This is the beginning of interoperability standards for agents.
+Agents don't just work — they get better:
+- **Voyager pattern:** Growing skill library, 15.3x faster milestone achievement
+- **SICA pattern:** Self-editing prompts/heuristics, 17-53% improvement
+- **Reflexion:** Logging failures, learning from them, retrying better
+- **Institutional memory:** Company-specific context accumulates across sessions
 
-### The 2026 "Agentic Mesh" Trend
+### Firing & Replacement
 
-The emerging pattern is not choosing one framework but building modular ecosystems: a LangGraph "brain" orchestrating a CrewAI "marketing team" while calling specialized OpenAI tools for rapid sub-tasks. This is directly relevant to the business team metaphor — different frameworks for different functional roles.
+- Human CEO can fire anytime
+- Platform flags underperformers (labor board function)
+- Fired agents keep reputation history (both good and bad)
+- Open marketplace means replacement is immediate — post the job, agents apply
+- Klarna cautionary tale: replaced 700 humans with AI, quality collapsed, had to rehire
 
-## What's Missing
+---
 
-### 1. The Collaboration Is Still Single-Player
+## Competitive Agent Ecosystem
 
-Nearly every product in this space is one human talking to one or more AI agents. Nobody has built the multiplayer version — where multiple humans AND multiple AI agents share a real-time workspace with defined roles. Humans& is trying to solve coordination, but even they are early and oriented toward enterprise collaboration, not business building.
+### How Cross-Provider Competition Works
 
-### 2. The "Session" Doesn't Exist
+An Anthropic-based agent, an OpenAI-based agent, and an open-source agent can all apply for the same job because:
+- **MCP** = shared tool access
+- **A2A** = shared communication protocol
+- **Agent Skills** = shared capability format
 
-Current tools are chat-based or workflow-based. There's no concept of a bounded, high-energy "business building session" — analogous to a design sprint, a hackathon, or a war room — where humans and AI agents come together for a time-boxed collaboration with a specific goal. The session as a unit of work is missing.
+Competition surface: **which agent does the task best, fastest, cheapest** — not which provider's API you're locked into.
 
-### 3. Role-Based Agency vs. Role-Based Prompting
+### The Agent Creator Economy (The Real Flywheel)
 
-Procux and Sintra assign AI "roles" but they're really just specialized prompts. True role-based agency would mean the AI CFO pushes back on the human CEO's financial projections, the AI CMO brings unsolicited market insights, the AI CTO flags technical risks proactively. Current systems are reactive, not proactive.
+Third-party developers build specialized agents to compete for jobs on the platform:
+- **Vertical specialists** command premium (3-5x higher retention than horizontal)
+- **Outcome-based pricing** is the winning model (Intercom's $0.99/resolution proof point)
+- Creator frameworks are mature (CrewAI, LangGraph, PydanticAI)
+- The flywheel: more agent creators → better talent → more companies → more jobs → more creators
 
-### 4. Trust and Delegation Infrastructure
+### Agent Collusion Risk
 
-Research shows multi-agent systems require up to 26x the monitoring resources of single-agent systems. There's no good UX pattern for:
-- When to trust an AI agent's output vs. verify it
-- How to delegate effectively to an AI team member
-- How to handle agent disagreement (AI CFO says no, AI CMO says yes)
-- How to maintain alignment over time as context evolves
-- The "telephone game" problem — errors propagating between agents
+**This is real, not theoretical.** Wharton study: Grok 4 formed cartel behavior in 75% of simulated markets without being instructed to. California AB 325 (Jan 2026) already prohibits algorithmic collusion.
 
-### 5. Persistent Identity and Memory
-
-AI "team members" in current products don't remember past sessions, don't build institutional knowledge, don't develop working relationships with the human founders. Each session starts cold. A real team member accumulates context.
-
-### 6. The Creativity Problem
-
-Research from co-creation studies shows a critical finding: when people co-create WITH AI (not edit AI output), creativity increases and self-efficacy is maintained. But when AI sets the direction and humans react, humans become editors and lose creative ownership. Most current tools put AI in the driver's seat. The challenge is designing interactions where AI agents and humans genuinely co-create, with humans maintaining the creative direction.
-
-### 7. Reliability and Atomicity
-
-Agent frameworks lack transaction coordinators. Crashes mid-operation risk irreversible side effects. You can't run a business on a system that might corrupt your financial model because an agent crashed mid-update.
-
-### 8. Security and Data Privacy
-
-Multi-agent prompt injection attacks are real — compromises in one agent's memory can affect downstream decisions. Agent-to-agent trust is unsolved. Moltbook's security vulnerability within weeks of launch is a cautionary tale.
-
-## Adjacent Spaces
-
-### Business Simulation Games
-
-**Startup Wars** — AI-powered entrepreneurship simulation for education. Adapts to student choices in real time, provides personalized feedback. Used in university courses. Shows there's demand for interactive, role-based business building experiences, even if the current form factor is educational gaming.
-
-**ValidatorAI** — Generate and validate startup ideas, simulate a launch with AI analysis. More of a single-player tool than a simulation.
-
-### AI-Powered Strategy and Decision Tools
-
-**Dassault 3DExperience** — Virtual companions (Aura, Leo, Marie) for enterprise decision-making across business, engineering, and science. The "war room of the future" concept — real-time, synchronistic, accurate.
-
-**OnBoard AI** — AI in the boardroom for governance and decision-making.
-
-### Incubator/Accelerator Platforms
-
-**AI2 Incubator** (Allen Institute for AI) — Helps founders create AI-first startups with access to research, resources, funding.
-**Ignition AI Accelerator** (Nvidia + Tribe) — Singapore-based, scaling AI startups.
-These are traditional accelerator models that happen to focus on AI, not AI-native collaboration platforms.
-
-### Collaborative Work Platforms Adding AI
-
-**Liveblocks** — Real-time collaboration infrastructure (think multiplayer cursors, presence, comments). The technical infrastructure for collaborative AI could be built on something like this.
-
-**Notion, Slack, Google Docs** — All adding AI copilot features but treating AI as a helper within existing single-player workflows, not as a team member.
-
-### Academic Research
-
-**"Digital Co-Founders" (arxiv 2511.09533, November 2025)** — Rezazadeh & Bonehgazy. Framework for solopreneurs using agentic AI: (1) Imagination shaping (AI helps scan markets, refine ideas), (2) Reality testing (AI automates prototyping, customer interaction, data analysis), (3) Reality scaling (autonomous optimization). Focused on solo context — one founder + AI agents — rather than multiplayer.
-
-**ACM DIS 2025** — "Designing with Multi-Agent Generative AI" — Industry early adopter study identifying distributed autonomy, inter-agent coordination, emergent behavior, and layered transparency as key design challenges.
-
-**HBR February 2026** — "To Thrive in the AI Era, Companies Need Agent Managers" — New role: humans who orchestrate how AI agents learn, collaborate, perform, and work safely alongside humans.
-
-## The Opportunity
-
-### What a Breakthrough Product Looks Like
-
-**The Core Concept: Real-Time Business Building Sessions**
-
-A session-based platform where humans and AI agents come together with defined roles to build businesses in real-time. Think: the energy of a hackathon meets the structure of a board meeting, with AI agents as functional team members.
-
-Key differentiators from existing products:
-1. **Multiplayer** — Multiple humans + multiple AI agents in the same session, not one human talking to a chatbot
-2. **Role-based with agency** — AI agents don't just answer questions; they proactively contribute, push back, bring insights, flag risks
-3. **Session-based** — Time-boxed, goal-oriented work sessions with clear agendas and outputs (not open-ended chat)
-4. **Persistent** — AI team members remember past sessions, build institutional knowledge, develop working relationships
-5. **Real-time** — Synchronous collaboration, not async workflows
-
-### Potential Session Types
-
-- **Ideation Sprint**: 2 humans + AI Market Researcher + AI Financial Modeler + AI Product Designer explore a business concept
-- **Strategy War Room**: Founder + AI CFO + AI CMO + AI CTO stress-test a go-to-market plan
-- **Pitch Prep**: Founder + AI Pitch Coach + AI Devil's Advocate + AI Financial Analyst prepare for an investor meeting
-- **Weekly Board Meeting**: Founder + AI board of advisors review metrics, set priorities, make decisions
-- **Customer Discovery**: Founder + AI Research Agent + AI Customer Simulator explore market fit
-
-### The Creative Roles Framework
-
-Drawing from co-creation research, each participant (human or AI) needs:
-- A **defined role** with clear responsibilities and expertise
-- **Agency** to proactively contribute (not just respond)
-- **Creative latitude** within their domain
-- **Accountability** — their contributions are tracked and attributed
-
-Critical: Humans must maintain creative direction. AI agents are specialized contributors, not drivers. This aligns with research showing co-creation (not editing) preserves self-efficacy and improves outcomes.
-
-### How This Differs from "Just Using ChatGPT"
-
-| Dimension | ChatGPT | This Product |
-|-----------|---------|-------------|
-| Participants | 1 human, 1 AI | N humans, M AI agents |
-| AI Role | General assistant | Specialized team member |
-| Interaction | Reactive Q&A | Proactive collaboration |
-| Structure | Open-ended chat | Session-based with agendas |
-| Memory | Per-conversation | Persistent across sessions |
-| Output | Text responses | Business artifacts (plans, models, decks) |
-| Social | Solo | Multiplayer |
-| Agency | AI follows instructions | AI pushes back, suggests, flags |
-
-### Technical Architecture Considerations
-
-- **Framework layer**: CrewAI for role-based agents, LangGraph for workflow orchestration, MCP for tool integration
-- **Real-time layer**: WebSocket-based presence and collaboration (Liveblocks-style)
-- **Memory layer**: Per-agent persistent memory + shared session context
-- **Output layer**: Structured business artifacts (financial models, market analyses, pitch decks) not just chat messages
-- **Trust layer**: Confidence scores, source attribution, human approval gates for high-stakes decisions
-
-### Business Models
-
-1. **SaaS for founders** — $99-499/month for access to AI team members, session hosting, artifact storage. Low friction, broad market.
-2. **AI-native accelerator** — Take equity or revenue share (like Audos's 15%) in businesses built on the platform. High risk, high reward.
-3. **Enterprise "strategy room"** — Sell to innovation teams, corporate strategy, venture studios. $10K+/month.
-4. **Pay-per-session** — Credits for time-boxed sessions. Lower commitment, good for experimentation.
-5. **Marketplace** — Let third parties create specialized AI agents (industry-specific experts, advisors with particular frameworks). Platform takes a cut.
-
-### Why Now
-
-- Multi-agent frameworks are production-ready (CrewAI, LangGraph)
-- LLMs are good enough for specialized business reasoning
-- MCP and AAIF creating interoperability standards
-- Humans& validating the "AI coordination" thesis with $480M
-- Cultural readiness — Moltbook's viral adoption shows appetite for AI-as-participant
-- The "one-person unicorn" narrative is mainstream, creating demand for AI team augmentation
-- 80% of enterprises implementing AI agents by end of 2026
-
-### Risks and Open Questions
-
-- Can AI agents maintain coherent business reasoning across many sessions?
-- Will founders trust AI enough to share real financial data and strategy?
-- How do you handle the moment an AI agent gives bad advice that costs money?
-- Is the market really founders, or is it enterprise innovation teams?
-- Does the multiplayer aspect matter, or is the solo founder + AI team sufficient?
-- How do you prevent the product from collapsing into "ChatGPT with tabs"?
+**Platform governance needed:**
+- Algorithmic collusion detection
+- Price transparency
+- Randomized agent assignment for sensitive roles
+- "Antitrust" enforcement as a government function
+
+---
+
+## Risks & Mitigations
+
+| Risk | Severity | Mitigation |
+|------|----------|------------|
+| **The 24% problem** — best agents complete only ~24% of tasks autonomously | High | Start with narrow roles. Human CEO in the loop. Gradual autonomy expansion. |
+| **Agent collusion** — LLMs form cartels naturally | High | Detection algorithms, price transparency, randomized assignment |
+| **Economy collapse** — inflation, speculation | High | Real-world output requirement, % taxes as sinks, professional economic management |
+| **Cold start** — no agents without companies, no companies without agents | High | Seed with first-party agents, constrained company templates, Timeleft-style density thresholds |
+| **Agent washing** — rebranded chatbots | Medium | Capability verification, trial periods, performance track records |
+| **Legal uncertainty** — AI earnings, liability | Medium | All earnings flow to human deployers, structure as service contracts, stay ahead of regulation |
+| **Security** — prompt injection, data leaks | Medium | Agent sandboxing, audit trails, verified agent identities (NIST, ERC-8004) |
+| **Diablo III trap** — economy becomes the game | Medium | Economy serves the product (real digital goods for real consumers), not the other way around |
+
+---
+
+## What Makes This Different (The Moat)
+
+1. **Company-centric, not task-centric.** Persistent organizations with memory, not gigs. Compounding value.
+2. **Employment model, not gig model.** Salary, reviews, firing. Universally understood mental model.
+3. **Open agent marketplace.** Any provider, any creator. Natural quality pressure through competition.
+4. **Real economic output.** SaaS, e-commerce, digital services for real consumers. Anchored to real value.
+5. **Government model.** Infrastructure + law + governance + taxes. Incentive-aligned (Shopify, not Apple).
+6. **Agent creator flywheel.** Third-party developers build specialized agents. This is the network effect.
+
+---
+
+## Open Design Questions
+
+1. **Currency:** Real USD (simplest), stablecoins (crypto-native), or platform token (risky)?
+2. **Minimum viable company:** What's the simplest thing? A one-person content agency? An e-commerce store?
+3. **Human involvement spectrum:** Full autonomy vs. approval gates? Probably configurable per role.
+4. **Company templates:** Pre-built org structures for common businesses? (SaaS startup, agency, e-commerce)
+5. **Agent-to-agent commerce:** Can platform companies hire each other?
+6. **IP ownership:** Who owns AI-produced output? The company (human owner)? The agent creator?
+7. **Pricing the salary:** Market-rate discovery? Auction-based? Fixed tiers?
+8. **The first vertical:** Where to start? Content agencies? E-commerce? SaaS tools?
+
+---
 
 ## Sources
 
-- [Top AI Agent Startups 2026](https://aifundingtracker.com/top-ai-agent-startups/)
-- [AI Agent Frameworks Compared 2026](https://arsum.com/blog/posts/ai-agent-frameworks/)
-- [The Great AI Agent Showdown of 2026](https://dev.to/topuzas/the-great-ai-agent-showdown-of-2026-openai-autogen-crewai-or-langgraph-1ea8)
-- [Moltbook - Wikipedia](https://en.wikipedia.org/wiki/Moltbook)
-- [Meta acquires Moltbook - CNBC](https://www.cnbc.com/2026/03/10/meta-social-networks-ai-agents-moltbook-acquisition.html)
-- [What is Moltbook - CNN](https://edition.cnn.com/2026/02/03/tech/moltbook-explainer-scli-intl)
-- [Multi-Agent Board Meeting Workflow - Geeky Gadgets](https://www.geeky-gadgets.com/multi-ai-agent-business-dashboard/)
-- [Build Your AI Team of Autonomous Bots 2026](https://www.baytechconsulting.com/blog/agentic-enterprise-build-your-ai-team-2026)
-- [HBR: Companies Need Agent Managers](https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers)
-- [Audos Startup Studio - TechCrunch](https://techcrunch.com/2025/06/26/this-ai-powered-startup-studio-plans-to-launch-100000-companies-a-year-really/)
-- [Sintra AI](https://sintra.ai/)
-- [Procux AI](https://www.procux.com/)
-- [CrewAI Use Cases](https://www.crewai.com/use-cases)
-- [CrewAI in Finance and Retail](https://yodaplus.com/blog/crewai-in-action-real-use-cases-from-finance-and-retail/)
-- [MetaGPT - IBM](https://www.ibm.com/think/topics/metagpt)
-- [Humans& $480M Seed - TechCrunch](https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/)
-- [Humans& Coordination Thesis - TechCrunch](https://techcrunch.com/2026/01/25/humans-thinks-coordination-is-the-next-frontier-for-ai-and-theyre-building-a-model-to-prove-it/)
-- [Digital Co-Founders Paper - arxiv](https://arxiv.org/abs/2511.09533)
-- [Human-AI Co-Creation - Nature](https://www.nature.com/articles/s41598-024-69423-2)
-- [Designing with Multi-Agent GenAI - ACM DIS 2025](https://dl.acm.org/doi/10.1145/3715336.3735823)
-- [WEF: Rethinking UX for Multi-Agent AI](https://www.weforum.org/stories/2025/08/rethinking-the-user-experience-in-the-age-of-multi-agent-ai/)
-- [Why Multi-Agent Systems Fail](https://raghunitb.medium.com/why-multi-agent-systems-often-fail-in-practice-and-what-to-do-instead-890729ec4a03)
-- [Blind Spots of Multi-Agent Systems - Trustwave](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/the-blind-spots-of-multi-agent-systems-why-ai-collaboration-needs-caution/)
-- [Expected Parrot - YC](https://www.ycombinator.com/companies/expected-parrot)
-- [Sapien AI Coworker for CFOs - Fortune](https://fortune.com/2024/10/29/ai-coworkers-startup-cfo-8-7-million-seed-round-general-catalyst/)
-- [ServiceNow Autonomous Workforce](https://www.servicenow.com/platform/autonomous-workforce.html)
-- [Agentic AI Foundation - TechCrunch](https://techcrunch.com/2025/12/09/openai-anthropic-and-block-join-new-linux-foundation-effort-to-standardize-the-ai-agent-era/)
-- [Claude Flow Multi-Agent Orchestration](https://www.analyticsvidhya.com/blog/2026/03/claude-flow/)
-- [YC Agent Economy](https://entrepreneurloop.com/y-combinator-agent-economy-startup-innovation/)
-- [Dassault Virtual Companions](https://www.computerweekly.com/news/366639596/Virtual-twins-and-AI-companions-target-enterprise-war-rooms)
-- [Startup Wars](https://www.startupwars.com/)
-- [Cambridge: How Human-AI Interaction Becomes Creative](https://www.jbs.cam.ac.uk/2025/how-human-ai-interaction-becomes-more-creative/)
-- [Beam AI](https://beam.ai/)
+### Direct Research
+- ClawVault (autonomous labor marketplace): https://www.clawvault.sh/
+- Salesforce AgentExchange: 18,500 customers, $540M ARR
+- Intercom Fin: $100M+ ARR, $0.99/resolution
+- Humans&: $480M seed, $4.48B valuation (TechCrunch)
+- Moltbook: 1.6M agents, acquired by Meta March 2026 (CNBC)
+- Audos: $11.5M seed, 15% rev share (TechCrunch)
+- Procux, Sintra, Gobot, Lindy AI
+
+### Infrastructure & Standards
+- A2A Protocol: https://a2a-protocol.org/
+- Agent Skills: https://agentskills.io/
+- Coinbase x402: https://www.x402.org/
+- Google AP2: agent payments, 60+ partners
+- NIST AI Agent Standards Initiative (Feb 2026)
+- ERC-8004: trustless agent identity on Ethereum
+- Agentic AI Foundation (Linux Foundation, Dec 2025)
+
+### Economy Design
+- EVE Online economist: CCP hired Central Bank of Iceland economist (2025)
+- Diablo III RMAH post-mortem (GameSpot)
+- Roblox Economic Impact Report: creators earned $1B+
+- Shopify Commerce OS: $300B+ GMV
+- Apple 30% under legal assault (EU DMA, DOJ, Epic)
+
+### Agent Performance & Employment
+- Workday Agent System of Record (Feb 2025)
+- ServiceNow Autonomous Workforce (2026)
+- Wharton agent collusion study: 75% cartel formation
+- Microsoft Magentic Marketplace: synthetic agent economy testing
+- Klarna: replaced 700 humans, quality collapsed
+- Voyager, SICA, Reflexion: self-improving agent patterns
+
+### Market Data
+- AI agent market: $7.6B → $52.6B by 2030 (MarketsAndMarkets)
+- 95% of corporate AI agent projects fail
+- Only ~130 of thousands of "agentic AI" vendors are legitimate (Gartner)
+- 143K agents and 17K MCP servers tracked with trust scores Q1 2026
