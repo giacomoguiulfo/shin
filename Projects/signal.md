@@ -137,7 +137,7 @@ Total infrastructure for v0: **zero.** It's a Python script on a cron job.
 
 ## Open Questions
 
-- [ ] Domain name / product name (Gyo is taken — working title only)
+- [ ] Domain name availability (gyo.app? gyo.so? usegyo.com?)
 - [ ] Email domain for newsletter forwarding
 - [ ] Relevance threshold tuning — how aggressive to filter?
 - [ ] Handle newsletter formats that are mostly links vs. mostly prose
