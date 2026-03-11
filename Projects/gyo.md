@@ -92,14 +92,15 @@ items: 12 relevant (34 filtered out)
 
 | Layer | Tech | Why |
 |-------|------|-----|
-| Language | Python | Fast scripting, great email/LLM libraries |
-| Email | `imaplib` or `imap_tools` | Standard IMAP polling |
-| HTML parsing | `beautifulsoup4` | Extract text from newsletter HTML |
-| LLM | Claude API (`anthropic` SDK) | Best at nuanced relevance judgment |
+| Runtime | Bun + TypeScript | Fast, native TS, zero config |
+| Email | `imapflow` | Modern IMAP client |
+| HTML parsing | `cheerio` | Extract text from newsletter HTML |
+| LLM | Claude API (`@anthropic-ai/sdk`) | Best at nuanced relevance judgment |
+| Config | `yaml` | Personal context file |
 | Output | Write `.md` file to vault path | Zero infrastructure |
 | Scheduler | `cron` (macOS) | Simplest possible. No server needed for v0 |
 
-Total infrastructure for v0: **zero.** It's a Python script on a cron job.
+Total infrastructure for v0: **zero.** It's a Bun script on a cron job.
 
 ## Path to MRR
 
