@@ -93,14 +93,14 @@ items: 12 relevant (34 filtered out)
 | Layer | Tech | Why |
 |-------|------|-----|
 | Runtime | Bun + TypeScript | Fast, native TS, zero config |
-| Email | `imapflow` | Modern IMAP client |
-| HTML parsing | `cheerio` | Extract text from newsletter HTML |
-| LLM | Claude API (`@anthropic-ai/sdk`) | Best at nuanced relevance judgment |
+| Email ingestion | Cloudflare Email Workers + KV | Free, production-ready, no IMAP needed |
+| HTML parsing | In the CF Worker (cheerio) | Parse at ingestion time |
+| LLM | Claude Code CLI (`claude -p`) | No API key, uses existing subscription |
 | Config | `yaml` | Personal context file |
 | Output | Write `.md` file to vault path | Zero infrastructure |
 | Scheduler | `cron` (macOS) | Simplest possible. No server needed for v0 |
 
-Total infrastructure for v0: **zero.** It's a Bun script on a cron job.
+See `PLAN.md` in the repo for detailed implementation steps.
 
 ## Path to MRR
 
