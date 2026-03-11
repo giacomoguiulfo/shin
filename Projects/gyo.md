@@ -148,7 +148,8 @@ Total infrastructure for v0: **zero.** It's a Bun script on a cron job.
 
 ### Session: 2026-03-11
 - Created project spec
-- Identified MVP architecture: Python script + IMAP + Claude API + cron → Obsidian .md
+- Identified MVP architecture: Bun/TS script + IMAP + Claude API + cron → Obsidian .md
 - Defined personal context file approach for relevance filtering
 - Mapped Phase 1-3 roadmap from personal tool to paid product
-- **Next:** Build Phase 1 — the personal tool. Set up email forwarding, write the script, test with real newsletters.
+- Set up repo with Bun + TypeScript: `src/fetch.ts`, `src/digest.ts`, `src/render.ts`, `src/index.ts`
+- **Next:** Set up email forwarding, configure `.env`, test with real newsletters.
