@@ -4,7 +4,9 @@ tags:
 repo: ~/Github/gyo
 ---
 
-# Gyo
+# Gyo (凝)
+
+*Hunter x Hunter technique: focus aura into your eyes to see what's hidden.*
 
 Personal AI briefing tool that reads your newsletters and gives you back just the gyo — filtered by what actually matters to you.
 
