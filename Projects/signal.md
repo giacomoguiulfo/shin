@@ -4,7 +4,7 @@ tags:
 repo: ~/Github/gyo
 ---
 
-# Signal
+# Gyo
 
 Personal AI briefing tool that reads your newsletters and gives you back just the gyo — filtered by what actually matters to you.
 
@@ -14,7 +14,7 @@ You subscribe to 20 newsletters because the topics matter. You read 5 because yo
 
 ## The Product
 
-Forward your newsletters to Signal. Every day, get a single digest in your Obsidian vault with:
+Forward your newsletters to Gyo. Every day, get a single digest in your Obsidian vault with:
 - What changed in your world
 - Why it matters to you specifically
 - Only the stuff that affects your life, work, or projects
@@ -135,7 +135,7 @@ Total infrastructure for v0: **zero.** It's a Python script on a cron job.
 
 ## Open Questions
 
-- [ ] Domain name / product name (Signal is taken — working title only)
+- [ ] Domain name / product name (Gyo is taken — working title only)
 - [ ] Email domain for newsletter forwarding
 - [ ] Relevance threshold tuning — how aggressive to filter?
 - [ ] Handle newsletter formats that are mostly links vs. mostly prose
