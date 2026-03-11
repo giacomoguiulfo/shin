@@ -1,12 +1,12 @@
 ---
 tags:
-  - project/signal
-repo: ~/Github/signal
+  - project/gyo
+repo: ~/Github/gyo
 ---
 
 # Signal
 
-Personal AI briefing tool that reads your newsletters and gives you back just the signal — filtered by what actually matters to you.
+Personal AI briefing tool that reads your newsletters and gives you back just the gyo — filtered by what actually matters to you.
 
 ## The Problem
 
@@ -31,7 +31,7 @@ Newsletters → Email Inbox → Parser → LLM (with personal context) → Daily
 
 | Component | Tech | Notes |
 |-----------|------|-------|
-| Email ingestion | IMAP polling on a custom domain | Forward newsletters to `read@signal.domain` |
+| Email ingestion | IMAP polling on a custom domain | Forward newsletters to `read@gyo.domain` |
 | Email parsing | HTML-to-text extraction | Strip formatting, images, ads, footers |
 | Personal context | Static context file | Interests, location (Japan), projects, "I care about X" rules |
 | Relevance filter | Claude API | "Does this affect Giacomo? Score 1-10" — drop anything below threshold |
