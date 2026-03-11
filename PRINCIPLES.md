@@ -24,4 +24,6 @@ Guiding principles for building and decision-making. Reference these when evalua
 
 **WET (Write Everything Twice)** — The counterbalance to DRY. Don't abstract too early. It's fine to duplicate code until you've seen the pattern three times. Premature abstraction is worse than duplication — it couples things that shouldn't be coupled and makes future changes harder.
 
-**No Python** — Avoid Python unless absolutely necessary (e.g., a library with no alternative, low-level ML work). Default to TypeScript/Node for scripting and tooling.
+**No Python** — Avoid Python unless absolutely necessary (e.g., a library with no alternative, low-level ML work).
+
+**Right Tool for the Job** — Choose between Ruby, Go, TypeScript, or Elixir based on what fits the task. Don't default to any one language blindly.
