@@ -6,7 +6,7 @@
 - [[domain-expansion]] — Article reading & discussion loop that builds a shared mental model
 - [[worktree-pipeline]] — Autonomous dev orchestration: mind dispatches, worktrees implement
 - [[kage-bunshin]] — AI-automated job search: discover, tailor, apply, track
-- [[signal]] — AI newsletter briefing: forward newsletters, get back just the signal
+- [[gyo]] — AI newsletter briefing: forward newsletters, get back just the signal
 
 ## Recent
 
