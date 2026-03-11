@@ -48,7 +48,7 @@ A structured file that tells the LLM who you are and what you care about:
 ```yaml
 name: Giacomo
 location: Japan
-languages: [English, Italian, Japanese]
+languages: [English, Japanese]
 roles: [founder, developer]
 interests:
   - AI/ML tooling and agent frameworks
