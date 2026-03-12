@@ -19,6 +19,7 @@ _Tools we're using or plan to use._
 - [[Tool-Eval-Piebald]] — Multi-provider agentic CLI. Claude Code + `--worktree` already covers the parallel workflow. (2026-03-10)
 - [[Tool-Eval-UUPM]] — Paid design intelligence skill for Claude Code. Already have `frontend-design` skill doing this. (2026-03-10)
 - [[Tool-Eval-GrapeRoot]] — Codebase graph MCP server. Closed source, unverified solo dev, no public repo. Concept worth exploring via open-source alternatives. (2026-03-10)
+- [[Tool-Eval-OMC]] — Multi-agent orchestration plugin for Claude Code. Heavy overlap with existing superpowers/ralph-loop stack, adds thick abstraction layer counter to our minimal-structure principles. (2026-03-13)
 
 ## Revisit
 
