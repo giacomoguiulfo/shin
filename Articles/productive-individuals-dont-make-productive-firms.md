@@ -39,4 +39,6 @@ AI has made individuals 10x more productive, but no company became 10x more valu
 ## Connections
 
 - [[worktree-pipeline]] — the coordination problem maps to how we orchestrate parallel worktrees
+- [[ai-companies-fewer-people]] — Sivulka explains *why* the 6x gap exists: individual productivity ≠ firm productivity. The missing layer is institutional intelligence, not more AI tools per person.
+- [[10x-is-the-new-floor]] — Nikunj's "floor rose" thesis is the individual side; Sivulka's "factory redesign" is the firm side. Individual productivity saturated → structural change needed.
 - Process engineering as key capability connects to how we encode project context in vault notes and CLAUDE.md files — same idea at a different scale
