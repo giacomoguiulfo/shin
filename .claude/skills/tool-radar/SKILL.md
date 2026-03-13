@@ -17,28 +17,7 @@ The user provides a tool name, URL, or both after `/tool-radar`. Examples:
 - `/tool-radar Bun`
 - `/tool-radar https://some-tool.dev some context about why I'm looking at it`
 
-### Status Changes
-
-The user can change a tool's verdict with:
-- `/tool-radar status <ToolName> <new-verdict>` — change one tool
-- `/tool-radar status <Tool1>, <Tool2>, ... <new-verdict>` — bulk change
-
-Examples:
-- `/tool-radar status OMC revisit`
-- `/tool-radar status Piebald, GrapeRoot, UUPM skip`
-- `/tool-radar status Mem0, RWSDK adopt`
-
-When changing status:
-1. For each tool, find `TILs/Tool-Eval-<ToolName>.md` and update its frontmatter:
-   - Change `verdict:` to the new value
-   - Replace the old verdict tag with the new one (e.g. `skip` → `adopt`)
-2. Move the tool's line in `Tool-Radar.md` from its current section to the new section (Adopt / Skip / Revisit)
-3. If moving to **Revisit** and there's no "revisit when..." trigger, ask the user for one
-4. Confirm what was changed
-
-If a tool name doesn't match any existing eval, say so and skip it.
-
-## The Job (New Evaluation)
+## The Job
 
 ### 1. Research
 
