@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://dev.to/alexandergekov/2026-the-year-of-the-ralph-loop-agent-1gkj
 author: Alexander Gekov
 date: 2026-01-08
