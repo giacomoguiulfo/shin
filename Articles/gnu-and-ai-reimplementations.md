@@ -36,6 +36,17 @@ What he glosses over: the social contract. GNU reimplementations were celebrated
 
 The dark version: SEO clone farms reimplementing SaaS with zero taste, undercutting on price. Fair but lazy. Race to zero.
 
+## LowEndBox: "The Linux Kernel Will Soon Be MIT-Licensed" (2026-03-08)
+
+A more provocative take on the same theme, by raindog308. Claims copyleft will be dead within 5 years. Less rigorous than Antirez but adds useful concrete angles:
+
+- **The chardet case study:** Python's `chardet` library reimplemented with Claude in 5 days. Plagiarism checker found 1.3% code similarity. Demonstrates the collapsing cost in practice.
+- **The economic calculus flip:** GPL compliance used to be cheaper than rewriting. Now AI rewrites are cheaper than compliance. Companies will choose the path of least resistance.
+- **The toolchain precedent:** GCC (GPL) → LLVM/Clang (permissive) already happened. Core Linux utils being rewritten in Rust under MIT. The copyleft shell stays, but internals get swapped.
+- **Weakest claim — kernel relicensing:** The headline overpromises. The kernel has thousands of contributors (many deceased) who chose GPLv2. You can't relicense that. You'd have to rewrite from scratch, which isn't "relicensing."
+- **The real insight (buried):** Copyleft's *enforcement mechanism* was the cost of reimplementation. If AI collapses that cost, copyleft becomes unenforceable in practice even if valid in law. The license text survives; the teeth don't.
+- **Legal grey zone:** Commenters raised that AI-trained-on-GPL-code producing "new" code may still be derivative work. Textual similarity is a red herring — copyright is about derivation, not diff output. This is genuinely unresolved law.
+
 ## Connections
 
 - [[sota-models-over-custom-ones]] — If anyone can reimplement anything, the moat is never the code. Value accrues to taste, ideas, and context engineering.
