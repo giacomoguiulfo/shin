@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://mistral.ai/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont
 author: Maxime Langelier & Mathis Grosmaitre (Mistral AI)
 date: 2026-03-11
