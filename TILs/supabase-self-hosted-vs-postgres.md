@@ -37,3 +37,7 @@ If you're self-hosting, just run Postgres. Self-hosted Supabase is the worst of 
 ## The Rule
 
 Want Supabase DX? Use Supabase Cloud — that's the actual product. Want control? Run Postgres directly.
+
+## Links
+
+- [[kanvify]] — came up during Kanvify architecture decisions (Kanvify uses PostgreSQL directly)
