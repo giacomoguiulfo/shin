@@ -182,6 +182,12 @@ The same ranked, synthesized content — adapted to every consumption pattern. C
 ### 7. Expertise-Aware Personalization
 Not just "topics you follow" but "topics at your level." A WebAssembly core contributor and a curious frontend developer both follow "WebAssembly" but need completely different curation. The contributor needs: spec proposals, VM implementation details, benchmark changes. The developer needs: new framework support, tutorial-level explainers, adoption milestones. Current tools treat all followers identically.
 
+## Links
+
+- [[gyo]] — Gyo applies topic-level curation to newsletters: filter by what matters to you
+- [[information-diet-curation]] — the meta-layer that sits across all topic feeds
+- [[trust-weighted-filtering]] — the quality/credibility dimension of curation
+
 ## Sources
 
 ### Newsletters & Curated Content
