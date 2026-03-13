@@ -240,6 +240,12 @@ Audiences that attend multiple events develop a collective identity and history.
 
 Over time, specific audience communities develop reputations and tendencies. This turns anonymous crowds into something like a character -- with a personality that emerges from thousands of individual choices accumulated over time.
 
+## Links
+
+- [[watch-parties-co-viewing]] — co-viewing as the passive side of live event participation
+- [[co-creation-at-scale]] — co-creation as the active side; audience-as-creator overlaps with audience-as-participant
+- [[ephemeral-shared-moments]] — synchronized timing creates the "liveness" that makes participation feel real
+
 ## Sources
 
 - [Crowd Control](https://crowdcontrol.live/) -- interactive gaming extension for Twitch/YouTube
