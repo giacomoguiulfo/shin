@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://dlants.me/ai-se.html
 author: dlants
 date: 2026-03-03
