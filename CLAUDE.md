@@ -56,5 +56,5 @@ mind/
 - **Specs are migrations** — transient, not permanent. Code is the source of truth.
 - **Notes capture durable knowledge** — decisions, learnings, patterns. Not work artifacts.
 - **Minimal structure** — few folders, tags and links over hierarchy.
-- **Project notes are onboarding docs** — everything Claude needs to pick up and go.
+- **Project notes are strategic, not technical** — what it is, why it matters, key decisions, and connections to research. Technical details (stack, conventions, directory structure, dev commands) live in each repo's own CLAUDE.md.
 - See `[[PRINCIPLES]]` for building & decision-making principles (Scratch Your Own Itch, YAGNI, KISS, DRY/WET).
