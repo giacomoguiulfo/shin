@@ -232,6 +232,11 @@ A simulated city that exists only because its citizens create it:
 
 This is SimCity meets Wikipedia meets a social network. The city IS the content. Visiting the city IS the entertainment.
 
+## Links
+
+- [[live-event-participation]] — audience agency in live events is a form of real-time co-creation
+- [[watch-parties-co-viewing]] — passive co-viewing vs. active co-creation; the spectrum of audience participation
+
 ## Sources
 
 ### UGC Gaming & Creator Economy
