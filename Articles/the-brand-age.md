@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://paulgraham.com/brandage.html
 date: 2026-03-09
 ---
