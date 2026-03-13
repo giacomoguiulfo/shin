@@ -14,11 +14,11 @@ Article reading and discussion loop that builds a shared mental model between Gi
 3. We discuss — agree, disagree, riff, connect to other ideas
 4. Claude captures the article note + updates the profile
 
-## Structure
+## How It Works
 
-- Article notes → flat files in root, tagged `#reading`
-- Synthesized views → `Profile.md` (likes, dislikes, beliefs, mental models)
-- Articles link back to profile themes, profile links to articles as evidence
+- Article notes live in `Articles/`, tagged `#reading`
+- Synthesized views accumulate in `Profile.md` (likes, dislikes, beliefs, mental models)
+- Articles link to profile themes; profile links back to articles as evidence
 
 ## Current State
 
