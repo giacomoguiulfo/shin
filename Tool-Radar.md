@@ -13,6 +13,10 @@ _Tools we're using or plan to use._
 
 - [[Tool-Eval-Lazygit]] — Terminal UI for git. Visual rebase, hunk staging, worktree management in a single Go binary. (2026-03-11)
 
+## Process
+
+- [[Tool-Eval-Process-Checklist]] — Trust check: always verify source, credibility, access scope, and dependency weight before recommending adopt
+
 ## Skip
 
 - **21st.dev** — React/Tailwind component library + AI agent SDK. Component library overlaps heavily with shadcn/ui which we already use. Agent SDK is separate concern, revisit if shipping an agent product. (2026-03-10)
