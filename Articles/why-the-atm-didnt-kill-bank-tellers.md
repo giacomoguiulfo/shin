@@ -26,4 +26,7 @@ The ATM-teller story is the go-to reassurance in every "AI won't take your job" 
 
 ## Connections
 
-_Links to other notes, profile themes, or projects._
+- [[jevons-paradox-doesnt-always-hold]] — The ATM story is the textbook case: Jevons held temporarily (cheaper branches → more tellers), then paradigm replacement (mobile banking) broke the cycle entirely.
+- [[ai-companies-fewer-people]] — Paradigm replacement is what drives the headcount drops. AI-as-copilot is the ATM; agentic AI handling full workflows is the iPhone.
+- [[productive-individuals-dont-make-productive-firms]] — Sivulka's factory analogy parallels this: bolting ATMs onto the branch model (task automation) vs. redesigning around mobile (paradigm replacement).
+- [[Profile]] — paradigm replacement > task automation as the real displacement mechanism
