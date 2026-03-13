@@ -32,3 +32,8 @@ When evaluating whether a technology will displace a profession:
 ## Context
 
 From Sean Goedecke's essay "I Don't Know if My Job Will Still Exist in Ten Years" (March 2026). Relevant to thinking through how AI reshapes technical careers and when transformation vs obsolescence is the more likely outcome.
+
+## Connections
+
+- [[why-the-atm-didnt-kill-bank-tellers]] — The ATM-to-iPhone story is the textbook case: Jevons held for 40 years (task automation), then paradigm replacement broke it
+- [[ai-companies-fewer-people]] — The 6x revenue-per-employee gap is evidence for the overshoot scenario: AI improving at both creation and maintenance
