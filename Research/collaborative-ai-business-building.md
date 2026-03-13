@@ -209,6 +209,11 @@ Third-party developers build specialized agents to compete for jobs on the platf
 
 ---
 
+## Links
+
+- [[worktree-pipeline]] — our own agent orchestration system; mind dispatches, worktrees implement — a micro-version of the "AI company" pattern
+- [[kage-bunshin]] — agent-automated job search pipeline; agents doing real work autonomously
+
 ## Sources
 
 ### Direct Research
