@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://simonwillison.net/guides/agentic-engineering-patterns/better-code/
 author: Simon Willison
 date: 2026-03-13
