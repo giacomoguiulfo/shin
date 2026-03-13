@@ -2,7 +2,9 @@
 tags:
   - reading
   - domain-expansion
-source: https://antirez.com/news/162
+source:
+  - https://antirez.com/news/162
+  - https://lowendbox.com/blog/the-linux-kernel-will-soon-be-mit-licensed-and-copyleft-will-be-dead-within-5-years/
 date: 2026-03-13
 ---
 
