@@ -281,6 +281,12 @@ The most popular co-viewing content on the internet isn't watch parties -- it's 
 
 ---
 
+## Links
+
+- [[live-event-participation]] — live events with audience agency go beyond passive co-viewing
+- [[co-creation-at-scale]] — co-creation is the active extreme of the participation spectrum
+- [[ephemeral-shared-moments]] — synchronized shared experiences; watch parties are one format
+
 ## Sources
 
 - [Teleparty Official Site](https://www.teleparty.com/) -- features, supported platforms, freemium model details
