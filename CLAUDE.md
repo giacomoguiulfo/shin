@@ -39,7 +39,7 @@ When Giacomo shares a link or article, **don't jump straight to capturing**. Fir
 ```
 mind/
 ├── Articles/       # Reading & domain-expansion notes
-├── Projects/       # One note per project (stack, conventions, current state)
+├── Projects/       # One note per project (vision, decisions, connections, current state)
 ├── Research/       # Research notes & market analysis
 ├── Templates/      # Note templates
 ├── TILs/           # Things I learned, patterns, snippets
