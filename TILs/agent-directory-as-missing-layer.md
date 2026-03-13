@@ -22,3 +22,8 @@ This is analogous to DNS for the web or service discovery in microservices (Cons
 - Whoever owns agent discovery owns the agent social graph — powerful network effects
 - Meta buying into this makes sense: they already own identity + messaging surfaces (WhatsApp, Messenger)
 - The pattern: tool access (MCP) is necessary but not sufficient. Discovery, trust, and negotiation between agents is the next layer up
+
+## Connections
+
+- [[worktree-pipeline]] — Our own agent orchestration needs a lightweight version of this: mind dispatching to worktree agents is a micro-directory problem
+- [[collaborative-ai-business-building]] — Agent discovery is the infrastructure primitive that multi-agent business building needs at scale
