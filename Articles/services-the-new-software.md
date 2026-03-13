@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://sequoiacap.com/article/services-the-new-software/
 author: Julien Bek (Sequoia)
 date: 2026-03-05
