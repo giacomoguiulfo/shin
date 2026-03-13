@@ -251,6 +251,12 @@ The notification model is broken. BeReal's notification became annoying. Clubhou
 
 ---
 
+## Links
+
+- [[kanvify]] — scheduling and publishing for social media; ephemeral formats (Stories, BeReal-style) are part of the content landscape
+- [[live-event-participation]] — event-anchored ephemeral sharing is the strongest whitespace identified here
+- [[hyperlocal-coordination]] — location-triggered moments overlap with hyperlocal social coordination
+
 ## Sources
 
 - [BeReal Statistics 2026 - Business of Apps](https://www.businessofapps.com/data/bereal-statistics/)
