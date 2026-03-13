@@ -376,6 +376,14 @@ Combined with cross-source triangulation: "This finding was reported by 3 high-c
 
 ---
 
+## Links
+
+- [[gyo]] — Gyo is the product implementation of this research: forward newsletters, get back just the signal
+- [[personalized-so-what-layer]] — the "why it matters to you" layer that makes curation personal
+- [[topic-level-curation]] — following specific topics deeply (one dimension of the diet)
+- [[trust-weighted-filtering]] — ranking by source credibility (quality dimension of the diet)
+- [[curation-as-social]] — curation as identity and social activity
+
 ## Sources
 
 ### Artifact & News Aggregator Market
