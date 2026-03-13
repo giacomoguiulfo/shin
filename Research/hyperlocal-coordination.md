@@ -181,6 +181,11 @@ Create a membership network of physical spaces (cafes, libraries, studios, parks
 
 ---
 
+## Links
+
+- [[kanvify]] — social media platform; hyperlocal coordination is an adjacent social product category
+- [[ephemeral-shared-moments]] — location-based ephemeral sharing overlaps with hyperlocal social
+
 ## Sources
 
 - [Y Combinator Social Startups](https://www.ycombinator.com/companies/industry/social)
