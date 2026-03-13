@@ -22,6 +22,8 @@ Before wrapping up, update the project note's `## Current State` section with:
 ### Sharing Content (Articles, Posts, Links)
 When Giacomo shares a link or article, **don't jump straight to capturing**. First, discuss it — react, push back, surface connections, ask questions. Have an actual conversation to discover what's interesting and what we think. Only offer to capture after we've engaged with the ideas.
 
+**Assume Giacomo hasn't read the article.** He shares links to discuss, not to quiz. Lead with a clear summary of what the article says before reacting to it, so we're on the same page. Then discuss.
+
 ### Creating Notes
 - Article/reading notes go in `Articles/`
 - Research notes go in `Research/`
