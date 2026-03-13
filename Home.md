@@ -3,7 +3,6 @@
 ## Active Projects
 
 - [[kanvify]] — Multi-platform social media scheduling & publishing
-- [[domain-expansion]] — Article reading & discussion loop that builds a shared mental model
 - [[worktree-pipeline]] — Autonomous dev orchestration: mind dispatches, worktrees implement
 - [[kage-bunshin]] — AI-automated job search: discover, tailor, apply, track
 - [[gyo]] — AI newsletter briefing: forward newsletters, get back just the signal
