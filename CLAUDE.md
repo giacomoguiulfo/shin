@@ -7,6 +7,8 @@ This is Giacomo's personal knowledge vault. It serves as a shared context layer 
 ### Starting a Session
 When the user says "let's work on [ProjectX]", read `Projects/[project].md` first. The `## Current State` section tells you where we left off.
 
+**Reminders:** At the start of every session, check `Reminders.md` for items due today or overdue. Surface them before diving into work. Move completed items to the `## Done` section with the completion date.
+
 ### Ending a Session
 Before wrapping up, update the project note's `## Current State` section with:
 - What we did this session
