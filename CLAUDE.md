@@ -38,7 +38,7 @@ When Giacomo shares a link or article, **don't jump straight to capturing**. Fir
 ### Structure
 ```
 mind/
-├── Articles/       # Reading & domain-expansion notes
+├── Articles/       # Reading & discussion notes
 ├── Projects/       # One note per project (vision, decisions, connections, current state)
 ├── Research/       # Research notes & market analysis
 ├── Templates/      # Note templates
