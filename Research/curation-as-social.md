@@ -225,6 +225,11 @@ This already happens informally (Pinterest boards, Are.na channels, Twitter thre
 
 Spotify Wrapped proved that periodic taste summaries go viral. Extend this to all curation: "Here's your 2025 taste profile — you saved 847 things across 12 domains. Your taste shifted toward brutalist architecture, natural wine, and Korean cinema. You were an early curator of 23 things that later went mainstream." Make it shareable, comparable, and identity-affirming.
 
+## Links
+
+- [[kanvify]] — Kanvify is a social media tool; curation-as-social patterns could inform content discovery features
+- [[information-diet-curation]] — curation as a personal practice vs. curation as a social/identity act
+
 ## Sources
 
 ### Primary research (directly accessed)
