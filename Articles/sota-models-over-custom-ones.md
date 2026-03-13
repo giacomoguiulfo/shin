@@ -34,4 +34,5 @@ Open questions:
 ## Connections
 
 - The vault + worktree pipeline is this thesis in practice: invest in context infrastructure (CLAUDE.md, project notes, structured handoffs) to make a general model effective for specific domains, rather than customizing the model itself.
-- [[context-is-the-new-fine-tuning]] — context engineering as the successor to fine-tuning
+- [[ai-and-software-engineering]] — context engineering (CLAUDE.md, project notes, structured handoffs) is the successor to fine-tuning — same thesis from the constraints angle
+- [[kanvify]] — Kanvify's AI features use frontier models with context, not fine-tuned models — this thesis in practice
