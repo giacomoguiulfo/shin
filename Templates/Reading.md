@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - domain-expansion
+  - reading
 source: {{url}}
 date: {{date}}
 ---
