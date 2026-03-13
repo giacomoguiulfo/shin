@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://www.williamjbowman.com/blog/2026/03/05/against-vibes-when-is-a-generative-model-useful/
 author: William J. Bowman
 date: 2026-03-05
