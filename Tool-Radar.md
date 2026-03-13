@@ -26,3 +26,4 @@ _Tools we're using or plan to use._
 
 - [[Tool-Eval-RWSDK]] — React framework for Cloudflare Workers. Appealing "zero magic" philosophy, but edge-first has data locality trade-offs. Revisit when building something that genuinely needs edge compute. (2026-03-10)
 - [[Tool-Eval-Mem0]] — Managed memory layer for AI apps. Skip for personal use, revisit if building AI product features needing per-user memory. (2026-03-10)
+- [[Tool-Eval-Paperclip]] — Agent fleet management platform with org charts, budgets, ticketing. Overkill for solo use; revisit when running 5+ concurrent agents. (2026-03-13)
