@@ -15,7 +15,7 @@ Before wrapping up, update the project note's `## Current State` section with:
 - What's next
 - Any open questions or blockers
 
-**Domain Expansion auto-capture:** When ending a domain-expansion session, also capture any article notes and profile updates that haven't been saved yet before updating the project's Current State.
+**Article auto-capture:** When ending a session where articles were discussed, capture any article notes and profile updates that haven't been saved yet.
 
 ### Creating Projects
 - Create the project note in `Projects/`
