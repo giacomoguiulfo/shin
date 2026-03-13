@@ -306,6 +306,11 @@ This makes the "so what" layer a *platform*, not just a product. The context mod
 
 ---
 
+## Links
+
+- [[gyo]] — Gyo's relevance filter is a narrow implementation of the "so what" layer: personalized briefings from newsletters
+- [[information-diet-curation]] — the broader information diet problem this layer solves
+
 ## Sources
 
 **Company / Product Research:**
