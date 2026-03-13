@@ -200,6 +200,11 @@ This inverts the speed competition of social media. The value proposition is *no
 
 Combine with the prediction accountability layer: content that was flagged as likely false during the delay period gets tagged with the outcome when resolved, building a track record for the scoring system itself.
 
+## Links
+
+- [[information-diet-curation]] — trust-weighting as one dimension of a unified curation layer
+- [[topic-level-curation]] — complements topic curation with source credibility scoring
+
 ## Sources
 
 ### Fact-Checking & Source Reliability
