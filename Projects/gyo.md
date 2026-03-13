@@ -136,6 +136,13 @@ See `PLAN.md` in the repo for detailed implementation steps.
 
 **The gap:** Nobody does "forward newsletters → get personalized briefing filtered by what matters to you."
 
+## Research
+
+- [[information-diet-curation]] — the full landscape of information diet curation; Gyo is a focused implementation of Model 1 (The Personal Editor)
+- [[personalized-so-what-layer]] — the "why it matters to you" intelligence layer; Gyo's relevance filter is a narrow version of this
+- [[topic-level-curation]] — topic-following as one dimension of the curation problem
+- [[trust-weighted-filtering]] — source credibility scoring; relevant for ranking newsletter signal quality
+
 ## Open Questions
 
 - [ ] Domain name availability (gyo.app? gyo.so? usegyo.com?)
