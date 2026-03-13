@@ -23,6 +23,7 @@ Synthesized map of Giacomo's thinking — built through reading and discussion.
 - Clear thesis writing (Paul Graham style) ([[the-brand-age]])
 - Frameworks that explain *why* industries shift ([[the-brand-age]], [[services-the-new-software]])
 - Clean 2x2s that generate non-obvious predictions ([[services-the-new-software]])
+- Historical analogies that reframe current debates ([[why-the-atm-didnt-kill-bank-tellers]], [[gnu-and-ai-reimplementations]], [[productive-individuals-dont-make-productive-firms]])
 
 ## Dislikes
 
