@@ -1,7 +1,7 @@
 ---
 tags:
   - reading
-  - project/domain-expansion
+  - domain-expansion
 source: https://linuxtoaster.com/manifesto.html
 author: LinuxToaster
 date: 2026-03-13
